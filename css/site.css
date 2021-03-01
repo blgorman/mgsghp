@@ -1,0 +1,146 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+    width: 100%;
+}
+
+.homepageheader {
+    padding-top: 20px;
+    background: url("../images/mainbg.jpg") top center no-repeat;
+    background-size: 100% auto;
+}
+
+.homepagebackground {
+    background: url("../images/circuit.png") no-repeat;
+}
+
+.homepagebackgroundsm {
+    background: url("../images/circuitsm.png") no-repeat;
+}
+
+.homepagebackgroundfull {
+    background: url("../images/mainbg.jpg") no-repeat;
+    min-height: 900px;
+}
+
+.homepagebannercontainer {
+    padding: 25px;
+    height: auto;
+}
+.btn-default-color {
+    color:white;
+}
+
+.overlay-info {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color:white;
+    opacity:0.8;
+    height:300px;
+}
+
+.overlay-info-sm {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color:white;
+    opacity:0.8;
+    height:140px;
+}
+
+.img-container-portfolio {
+    max-width:  300px;
+    max-height: 250px;
+}
+
+.portfolio-item {
+    max-height:250px;
+}
+
+.about-text {
+    padding:10px;
+    background-color: lightgray;
+}
+
+.editor-field textarea {
+    width:100%;
+    height: 114px;
+}
+
+.padleft25px {
+    padding-left:25px;
+}
+
+.padright25px {
+    padding-right:25px;
+}
+
+.ourservicedisplaywidth {
+    max-width:650px;
+}
+
+.main-thumbnail-height {
+    min-height:600px;
+}
+
+.width100perc {
+    width:100%;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.move-down {
+    margin-top:150px;
+}
+
+
+
+.jumbotron-custom {
+    background-image: url('../images/calloutbg.png');
+    margin: 20px 20px 30px 20px;
+    padding: 10px;
+    color:#c3c3c3;
+}
+
+    .jumbotron-custom > p {
+        color:#fff;
+    }
+
+.jth1 {
+    font-weight:bold;
+    color:white;
+    font-size:32px;
+    font-family:Verdana;
+}
+
+.jth3 {
+    font-weight:bold;
+    color: #fff;
+    font-size:16px;
+}
+.jth5 {
+    font-weight:bold;
+    color: #fff;
+    font-size:12px;
+}
